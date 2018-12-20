@@ -5,5 +5,5 @@
 #
 
 curl -k -n  \
-	-H "Jenkins-Crumb:c5338d1b4de6b570e67c5a1163b0b724" \
-	-X POST "https://jml01.unx.sas.com/job/Run Ansible Playbook/buildWithParameters?ANSPLAYBOOK=playbook.yml&HOSTLIST=test.barnhouse.com"
+	-H "Jenkins-Crumb:XXXXXXXXXXXXXXXXX" \
+	-X POST "https://jenkins_master/job/Run Ansible Playbook/buildWithParameters?ANSPLAYBOOK=playbook.yml&HOSTLIST=test.barnhouse.com"
